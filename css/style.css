@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    background-color: rgb(245, 240, 225)!important;
+    min-height: 100%;
+    height: auto; 
+}
+
+/* head */
+nav ul li a,
+.navbar-nav .nav-link {
+    color: white !important;
+    border-radius: 8px;
+    transition: color 0.2s;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400!important;
+    padding: 10px ; /* Spaziatura interna della navbar */
+    
+}
+
+nav ul li a:hover,
+.navbar-nav .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.bgred {
+    background: rgb(35, 79, 112);
+
+}
+
+
+
+ /*Stili per il contenuto principale */
+main {
+    min-height: 100%;
+    height: auto;
+    text-align: center;
+    padding: 5px; /* Aggiungi spazio intorno alle carte se necessario */
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(245, 240, 225);
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "DM Serif Display", serif;
+}
+
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "DM Serif Display", serif;
+}
+
+p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+/*foto home*/
+.d-block.w-100{
+    max-width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*colori dei bottoni*/
+
+.btn.btn-primary {
+    background-color:rgb(35, 79, 112); 
+    border-color: rgb(35, 79, 112); 
+    color: white; 
+}
+
+.btn.btn-primary:hover {
+    background-color: rgb(112,35,79); 
+    border-color: rgb(112,35,79); 
+}
+
+/* Stili per le card film*/
+.card-text {
+    color: black;
+    text-align: center;
+}
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px; 
+}
+
+.col-md-4.mb-4 {
+  flex: 1;
+}
+
+
+/* Pulsante Spotify */
+.spotify-btn {
+    background-color: green; 
+    color: white; 
+    border: none; 
+    padding: 13px 13px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 14px; 
+    transition: background-color 0.2s; 
+}
+
+/* Pulsante Apple Music */
+.apple-btn {
+    background-color: rgb(255, 42, 42); 
+    color: white; 
+    border: none; 
+    padding: 2px 2px; 
+    border-radius: 5px; 
+    text-decoration: none;  
+    font-weight: bold; 
+    font-size: 14px; 
+    transition: background-color 0.2s; 
+    display: flex; /* per allineare icona e testo */
+    flex-direction: column; 
+    align-items: center;
+}
+
+ 
+.spotify-btn:hover {
+    background-color: rgb(29, 158, 84); 
+    text-decoration: none;
+} 
+
+.apple-btn:hover {
+    background-color: rgb(245, 76, 76);
+    text-decoration: none;
+
+}
+
+/*Box per i test*/
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(245, 240, 225);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(245, 240, 225);
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.box:hover {
+    transform: scale(1.10);
+    text-decoration: none;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+
+/* Footer */
+footer {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(35, 79, 112);
+    width: 100%;
+} 
+
+.footer-bottom p {
+     margin-top: 10px;
+     float: left;
+
+}
+
+.footer, .push{
+    height: 200px; 
+}
+
+footer a {
+    color: white; 
+}
+
+footer a:hover {
+    color: white;
+}
+
+.documentazione {
+  text-align: center;
+  margin-top: 10px; /* Regola questo margine per posizionare "Documentazione" sotto */
+  margin-right: 100px;
+}
+
+.documentazione a {
+  color: white; /* Cambia il colore del link se necessario */
+}
+
+
+.wire{
+    max-width: 40%;
+
+}
+
+.wrapper {
+    text-align: left;
+}
+
