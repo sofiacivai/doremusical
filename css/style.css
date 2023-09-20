@@ -13,7 +13,7 @@ nav ul li a,
     transition: color 0.2s;
     font-family: "DM Sans", sans-serif;
     font-weight: 400!important;
-    padding: 10px ; /* Spaziatura interna della navbar */
+    padding: 10px ; /* spaziat interna della navbar */
     
 }
 
@@ -30,12 +30,12 @@ nav ul li a:hover,
 
 
 
- /*Stili per il contenuto principale */
+ /* contenuto principale */
 main {
     min-height: 100%;
     height: auto;
     text-align: center;
-    padding: 5px; /* Aggiungi spazio intorno alle carte se necessario */
+    padding: 5px; 
 }
 
 h1 {
@@ -209,21 +209,24 @@ footer a:hover {
 
 .documentazione {
   text-align: center;
-  margin-top: 10px; /* Regola questo margine per posizionare "Documentazione" sotto */
+  margin-top: 10px; /* per posizionare "Documentazione" sotto */
   margin-right: 100px;
 }
 
 .documentazione a {
-  color: white; /* Cambia il colore del link se necessario */
+  color: white; 
 }
 
 
 .wire{
     max-width: 40%;
-
 }
+
 
 .wrapper {
     text-align: left;
 }
 
+#insta {
+    max-width: 20%;
+}
